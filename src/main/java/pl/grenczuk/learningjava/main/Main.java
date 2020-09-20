@@ -7,6 +7,7 @@ package pl.grenczuk.learningjava.main;
 
 import pl.grenczuk.learningjava.arrays.Array1D;
 import pl.grenczuk.learningjava.arrays.ArrayXD;
+import pl.grenczuk.learningjava.numbers.Integers;
 import pl.grenczuk.learningjava.string.Strings;
 
 /**
@@ -23,5 +24,7 @@ public class Main {
         System.out.println("\n");
         System.out.println("Uruchomienie operacji na Strinach - ciągu znaków, a nie na majtkach :)");
         Strings.run();
+        System.out.println("Uruchomienie operacji na liczbach całkowitych");
+        Integers.run();
     }
 }
