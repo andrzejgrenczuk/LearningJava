@@ -20,7 +20,10 @@ public class Integers {
         System.out.println("Number of bytes for single integer: "+Integer.BYTES);
         System.out.println("Bit count for value: min => "+Integer.bitCount(min));
         System.out.println("Bit count for value: max => "+Integer.bitCount(max));
-        
+        System.out.println(Math.E);
+        System.out.println(Math.PI);
+        System.out.println("Wartość liczby 'e' podniesiona do potęgi drugiej: "+Math.pow(Math.E,2));
+        System.out.println("Konwersja wartości liczby 'e' ze zmiennoprzecinkowej na typ int: "+(int)Math.E);
     
     }
 }
